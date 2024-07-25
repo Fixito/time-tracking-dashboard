@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root {
+  /* colors */
+  --clr--primary-100: #bbc0ff;
+  --clr--primary-200: #7078c9;
+  --clr--primary-300: #5747ea;
+  --clr--primary-400: #5a1cbb;
+  --clr--primary-500: #1c204b;
+  --clr--primary-600: #0e1323;
+
+  /* green */
+  --clr-green-light: #4bcf82;
+  --clr-green-dark: #29ba66;
+
+  /* blue */
+  --clr-blue-light: #55c2e6;
+  --clr-blue-dark: #3f9cbb;
+
+  /* purpke */
+  --clr-purple-light: #7335d2;
+  --clr-purple-dark: #5a1cbb;
+
+  /* orange */
+  --clr-orange-light: #d96c47;
+  --clr-orange-dark: #ff8b64;
+
+  /* red */
+  --clr-red-light: #ff5e7d;
+  --clr-red-dark: #f04667;
+
+  /* yellow */
+  --clr-yellow-light: #f1c75b;
+  --clr-yellow-dark: #e6a532;
+
+  /* grey */
+  --clr-neutral-100: #d8d8d8;
+
+  /* rest of colors */
+  --clr-white: #fff;
+
+  /* typography */
+  --ff-base: 'Rubik', sans-serif;
+
+  --fs-sm: 0.9375rem;
+  --fs-base: 1rem;
+  --fs-lg: 1.125rem;
+  --fs-2xl: 1.5rem;
+  --fs-4xl: 2.5rem;
+  --fs-6xl: 3.5rem;
+
+  --fw-light: 300;
+  --fw-regular: 400;
+
+  /* rest of vars */
+  --rounded-2xl: 0.9375rem;
+  --max-width: 58rem;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--ff-base);
+  font-size: var(--fs-sm);
+  font-weight: var(--fw-regular);
+  line-height: 1;
+  color: var(--clr-dark-navy);
+  background-color: var(--clr--primary-600);
+  color: var(--clr-white);
+  padding-inline: 1.5rem;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin-block-start: 0;
+  font-weight: var(--fw-bold);
+  line-height: 1;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.dashboard {
+  padding-block: 5rem;
+}
+
+.dashboard__header {
+  background-color: var(--clr--primary-300);
+  border-radius: var(--rounded-2xl);
+  padding: 2rem;
+  border-radius: var(--rounded-2xl);
+}
+
+.user {
+  display: flex;
+  gap: 1.25rem;
+  padding-block-end: 2rem;
+}
+
+.user__avatar {
+  inline-size: 4rem;
+  aspect-ratio: 1/1;
+  border-radius: 100%;
+  border: 3px solid var(--clr-white);
+}
+
+.user__report {
+  color: var(--clr--primary-100);
+}
+
+.user__name {
+  margin-block-start: 0.5rem;
+  font-size: var(--fs-2xl);
+  font-weight: var(--fw-light);
+  color: var(--clr-white);
+}
+
+.user-info {
+  padding: 1.5rem;
+}
+
+.dashboard__controls {
+  background-color: var(--clr--primary-500);
+}
