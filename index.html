@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Time tracking dashboard</title>
+  </head>
+  <body>
+    <main class="dashboard">
+      <header class="dashboard__header">
+        <div class="user">
+          <img
+            src="./images/image-jeremy.png"
+            alt="Jeremy Robson"
+            class="user__avatar"
+          />
+          <div class="user__info">
+            <p class="user__report">Report for</p>
+            <h1 class="user__name">Jeremy Robson</h1>
+          </div>
+        </div>
+
+        <div class="dashboard__controls">
+          <button class="dashboard__button">Daily</button>
+          <button class="dashboard__button">Weekly</button>
+          <button class="dashboard__button">Monthly</button>
+        </div>
+      </header>
+
+      <section class="time-tracking">
+        <h2 class="sr-only">Time tracking</h2>
+        <article class="time-tracking__card">
+          <header class="time-tracking__card-header">
+            <h2 class="time-tracking__title">Work</h2>
+            <button
+              class="time-tracking__options"
+              aria-label="More options"
+            >
+              <svg
+                width="21"
+                height="5"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
+                  fill="#BBC0FF"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </button>
+          </header>
+          <div class="time-tracking__details">
+            <span class="time-tracking__time">32hrs</span>
+            <p class="time-tracking__previous">Last Week - 36hrs</p>
+          </div>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
