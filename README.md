@@ -10,11 +10,6 @@ This is a solution to the [Time tracking dashboard challenge on Frontend Mentor]
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -32,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution]()
-- Live Site URL: [Live Site]()
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/time-tracking-dashboard-stsQCFC9LS)
+- Live Site URL: [Live Site](https://fem-time-tracking-dashboard-tr.netlify.app/)
 
 ## My process
 
